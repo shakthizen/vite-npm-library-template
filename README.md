@@ -1,6 +1,38 @@
 # ViteJS NPM react component library template
 
 
+## Custom components
+
+1. Create your custom react components in the `src/componets` directory
+2. Export them in `src/componets/index.ts`
+3. Finally export them in `/index.ts`
+
+
+## Run dev server & test UI components
+
+Test your custom components in `App.tsx`.
+
+- Install dependencies
+```bash
+yarn
+```
+
+- Run development server
+```bash
+yarn dev
+```
+
+- Login to NPM
+```bash
+npm adduser
+```
+
+- Publish to NPM
+```bash
+npm publish
+```
+
+___
 All these changes are added to the default vite project
 ## `package.json` changes
 
